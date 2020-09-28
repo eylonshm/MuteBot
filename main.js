@@ -112,7 +112,7 @@ client.on('message', function (message) {
         }
     }
 
-    if (command === 'u') {
+    if (command === 'u' || command === 'dsadadsa') {
         if (message.author === host) {
             //cheking if the sender is admin
             let channel = message.member.voice.channel //the voice channel which the sender is in
