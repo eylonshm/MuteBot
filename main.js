@@ -83,7 +83,7 @@ client.on('message', function (message) {
             }
         }
     }
-    if (command === 'm' || command === 'dsada') {
+    if (command === 'm' || command === 'mute') {
         if (message.author === host) {
             //checking if the sender is admin
             let isAllMuted = true
@@ -112,7 +112,7 @@ client.on('message', function (message) {
         }
     }
 
-    if (command === 'u' || command === 'dsadadsa') {
+    if (command === 'u' || command === 'unmute') {
         if (message.author === host) {
             //cheking if the sender is admin
             let channel = message.member.voice.channel //the voice channel which the sender is in
