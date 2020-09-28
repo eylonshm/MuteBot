@@ -83,7 +83,7 @@ client.on('message', function (message) {
             }
         }
     }
-    if (command === 'm') {
+    if (command === 'm' || command === 'dsada') {
         if (message.author === host) {
             //checking if the sender is admin
             let isAllMuted = true
